@@ -1,0 +1,4 @@
+model,outcome,treatment,estimate,std_error,p_value,ci_low,ci_high,n_obs,n_counties,n_states
+"Main DiD: workplace mobility, broad order",workplaces_percent_change_from_baseline,mandatory_broad,-50.16573578343809,0.7949205860854968,1.3576226841018544e-48,-51.763188508719765,-48.56828305815641,274779,2793,50
+"Robustness: workplace mobility, strict order",workplaces_percent_change_from_baseline,mandatory_strict,-54.095840893844716,0.733228063964743,6.960307310798765e-52,-55.56931785435648,-52.622363933332956,274779,2793,50
+"Robustness: residential mobility, broad order",residential_percent_change_from_baseline,mandatory_broad,19.971035597919425,0.2907850325314665,2.249186909823333e-50,19.38668119721637,20.55538999862248,122901,1452,50
